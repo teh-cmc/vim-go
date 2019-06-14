@@ -474,7 +474,7 @@ function! go#config#EchoGoInfo() abort
 endfunction
 
 function! go#config#CodeCompletionEnabled() abort
-  return get(g:, "go_code_completion_enabled", 1)
+  return get(g:, "go_code_completion_enabled", 0)
 endfunction
 
 " Set the default value. A value of "1" is a shortcut for this, for
